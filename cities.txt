@@ -1,0 +1,23 @@
+"name":"sao paulo",
+"population":"22000000",
+"country":"brazil"
+
+"name":"istanbul",
+"population":"15500000",
+"country":"turkey"
+
+"name":"mumbai",
+"population":"20400000",
+"country":"india"
+
+"name": "dubai",
+"population": "3331000000",
+"country": "united arab emirates"
+
+"name": "lagos",
+"population": "21000000",
+"country": "nigeria"
+
+"name": "tokyo",
+"population": "37400000",
+"country": "japan"

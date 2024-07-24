@@ -1,0 +1,29 @@
+"name":"vietnam",
+"capitol":"hanoi",
+"population":"98000000",
+"language":"vietnamese"
+
+"name":"sweden",
+"capitol":"stockholm",
+"population":"10500000",
+"language":"swedish"
+
+"name":"south africa",
+"capitol":"cape town",
+"population":"60000000",
+"language":"zulu"
+
+"name": "canada",
+"capitol": "ottowa",
+"population": "38000000",
+"language": "english"
+
+"name": "argentina",
+"capitol": "buenos aires",
+"population": "45000000",
+"language": "spanish"
+
+"name": "egypt",
+"capitol": "cairo",
+"population": "105000000",
+"language": "arabic"
