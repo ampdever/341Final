@@ -11,7 +11,6 @@ router.get('/', (req, res) => {
 router.use('/cities', require('./cities'));
 //router.use('/users', require('./users'));
 router.use('/countries', require('./countries'));
-router.use('/contacts', require('./contacts'));
 
 // router.get('/login', passport.authenticate('github'), (req, res) => {});
 

@@ -1,14 +1,13 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Numbers API",
-    "description": "Numbers API",
+    "title": "Final API",
+    "description": "Final API",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "three41final-o1ao.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {

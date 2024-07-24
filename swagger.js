@@ -5,7 +5,7 @@ const doc = {
         title: 'Final API',
         description: 'Final API'
     },
-    host: 'localhost:3000',
+    host: 'three41final-o1ao.onrender.com',
     schemes: ['https', 'http']
 };
 
