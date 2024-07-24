@@ -1,0 +1,39 @@
+"country": "brazil",
+"year": 2023,
+"totalPopulation": 214000000,
+"populationGrowthRate": 0.72,
+"birthRate": 13.9,
+"deathRate": 6.5,
+"lifeExpectancy": 75.4
+
+"country": "egypt",
+"year": "2023",
+"totalPopulation": "110000000",
+"populationGrowthRate": "1.94",
+"birthRate": "26.5",
+"deathRate": "5.8",
+"lifeExpectancy": "72.7"
+
+"country": "germany",
+"year": "2023",
+"totalPopulation": "83000000",
+"populationGrowthRate": "-0.2",
+"birthRate": "9.5",
+"deathRate": "11.4",
+"lifeExpectancy": "81.2"
+
+"country": "canada",
+"year": "2023",
+"totalPopulation": "38700000",
+"populationGrowthRate": "1.1",
+"birthRate": "10.3",
+"deathRate": "7.8",
+"lifeExpectancy": "82.3"
+
+"country": "spain",
+"year": "2023",
+"totalPopulation": "47400000",
+"populationGrowthRate": "-0.1",
+"birthRate": "7.9",
+"deathRate": "9.3",
+"lifeExpectancy": "83.5"

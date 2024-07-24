@@ -1,0 +1,24 @@
+"country": "brazil",
+"description": "tropical rainforest",
+"averageTemperature": "27",
+"rainfall": "2200"
+
+"country": "egypt",
+"description": "desert",
+"averageTemperature": "30",
+"rainfall": "50"
+
+"country": "germany",
+"description": "temperate",
+"averageTemperature": "10",
+"rainfall": "700"
+
+"country": "canada",
+"description": "arctic",
+"averageTemperature": "-12",
+"rainfall": "200"
+
+"country": "spain",
+"description": "mediterranean",
+"averageTemperature": "16",
+"rainfall": "600"

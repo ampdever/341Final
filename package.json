@@ -1,7 +1,7 @@
 {
   "name": "341Final",
   "version": "1.0.0",
-  "description": "341 Contacts",
+  "description": "341 Final",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

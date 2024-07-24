@@ -1,12 +1,11 @@
 const validator = require('../helpers/validate');
 
-const saveContact = (req, res, next) => {
+const saveCountry = (req, res, next) => {
     const validationRule = {
-        firstName: 'required|string',
-        lastName: 'required|string',
-        email: 'required|email',
-        favoriteColor: 'required|string',
-        birthday: 'string'
+        name: 'required|string',
+        capitol: 'required|string',
+        population: 'required|email',
+        language: 'required|string'
     };
     validator(req.body, validationRule, {}, (err, status) => {
         if (!status) {
@@ -21,16 +20,15 @@ const saveContact = (req, res, next) => {
     });
 };
 
-const saveNumber = (req, res, next) => {
+const savePopulation = (req, res, next) => {
     const validationRule = {
-        name: 'required|string',
-        one: 'required|string',
-        two: 'required|string',
-        three: 'required|string',
-        four: 'required|string',
-        five: 'required|string',
-        six: 'required|string',
-        seven: 'required|string',
+        country: 'required|string',
+        year: 'required|string',
+        totalPopulation: 'required|string',
+        populationGrowthRate: 'required|string',
+        birthRate: 'required|string',
+        deathRate: 'required|string',
+        lifeExpectancy: 'required|string'
     };
     validator(req.body, validationRule, {}, (err, status) => {
         if (!status) {
@@ -64,8 +62,29 @@ const saveCity = (req, res, next) => {
     });
 };
 
+const saveClimate = (req, res, next) => {
+    const validationRule = {
+        country: 'required|string',
+        description: 'required|string',
+        averageTemperature: 'required|email',
+        rainfall: 'required|string'
+    };
+    validator(req.body, validationRule, {}, (err, status) => {
+        if (!status) {
+            res.status(412).send({
+                success: false,
+                message: 'Validation failed',
+                data: err
+            });
+        } else {
+            next();
+        }
+    });
+};
+
 module.exports = {
-    saveContact,
-    saveNumber,
-    saveCity
+    saveCountry,
+    savePopulation,
+    saveCity,
+    saveClimate
 };

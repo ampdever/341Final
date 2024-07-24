@@ -301,6 +301,308 @@
           }
         }
       }
+    },
+    "/population/": {
+      "get": {
+        "tags": [
+          "Population"
+        ],
+        "description": "",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Population"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "country": {
+                  "example": "any"
+                },
+                "year": {
+                  "example": "any"
+                },
+                "totalPopulation": {
+                  "example": "any"
+                },
+                "populationGrowthRate": {
+                  "example": "any"
+                },
+                "birthRate": {
+                  "example": "any"
+                },
+                "deathRate": {
+                  "example": "any"
+                },
+                "lifeExpectancy": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/population/{id}": {
+      "get": {
+        "tags": [
+          "Population"
+        ],
+        "description": "",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Population"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "country": {
+                  "example": "any"
+                },
+                "year": {
+                  "example": "any"
+                },
+                "totalPopulation": {
+                  "example": "any"
+                },
+                "populationGrowthRate": {
+                  "example": "any"
+                },
+                "birthRate": {
+                  "example": "any"
+                },
+                "deathRate": {
+                  "example": "any"
+                },
+                "lifeExpectancy": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Population"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/climates/": {
+      "get": {
+        "tags": [
+          "Climates"
+        ],
+        "description": "",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Climates"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "country": {
+                  "example": "any"
+                },
+                "description": {
+                  "example": "any"
+                },
+                "averageTemperature": {
+                  "example": "any"
+                },
+                "rainfall": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/climates/{id}": {
+      "get": {
+        "tags": [
+          "Climates"
+        ],
+        "description": "",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Climates"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "country": {
+                  "example": "any"
+                },
+                "description": {
+                  "example": "any"
+                },
+                "averageTemperature": {
+                  "example": "any"
+                },
+                "rainfall": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Climates"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
     }
   },
   "definitions": {
@@ -331,6 +633,49 @@
           "type": "string"
         },
         "language": {
+          "type":"string"
+        }
+      }
+    },
+    "Population": {
+      "type": "object",
+      "properties": {
+        "country": {
+          "type": "string"
+        },
+        "year": {
+          "type": "string"
+        },
+        "totalPopulation": {
+          "type": "string"
+        },
+        "populationGrowthRate": {
+          "type": "string"
+        },
+        "birthRate": {
+          "type": "string"
+        },
+        "deathRate": {
+          "type": "string"
+        },
+        "lifeExpectancy": {
+          "type":"string"
+        }
+      }
+    },
+    "Climates": {
+      "type": "object",
+      "properties": {
+        "country": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "averageTemperature": {
+          "type": "string"
+        },
+        "rainfall": {
           "type":"string"
         }
       }
